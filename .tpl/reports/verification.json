@@ -1,0 +1,85 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-10-25T10:50:23.640Z",
+  "sourceCommit": "1bd1699115311c19128e1dd884470319f4aba900",
+  "sourceDigest": "7745e1eb261a930add5d296355e25959d1abc2d1b191356ba5a95eb68d70aa02",
+  "environment": {
+    "platform": "linux",
+    "arch": "x64",
+    "node": "v24.16.0",
+    "packageManager": "pnpm@9.15.4",
+    "cleanDirectory": true,
+    "localGitClone": true
+  },
+  "checks": [
+    {
+      "id": "typecheck",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T10:49:29.422Z",
+      "finishedAt": "2026-10-25T10:49:32.581Z"
+    },
+    {
+      "id": "lint",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "lint"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T10:49:32.582Z",
+      "finishedAt": "2026-10-25T10:49:37.010Z"
+    },
+    {
+      "id": "test",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "test"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T10:49:37.011Z",
+      "finishedAt": "2026-10-25T10:49:36.206Z"
+    },
+    {
+      "id": "build",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-25T10:49:36.206Z",
+      "finishedAt": "2026-10-25T10:50:22.027Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "stopped": true,
+      "checkedAt": "2026-10-25T10:50:23.644Z"
+    }
+  ],
+  "limitations": [
+    "完整三端逐时刻动效与原站轨迹对照尚未完成，不标记完整复刻验收通过。",
+    "指针遮罩与碎片悬停、拖拽释放回弹和系统减少动态效果尚未完成实际对照。",
+    "参考设计与媒体的商业再分发权利未完整核实，保持未上架。",
+    "Next构建提示未检测到Next ESLint插件；独立ESLint、类型和构建通过。"
+  ]
+}
