@@ -1,0 +1,308 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "id": "estaymart",
+  "version": "1.0.0",
+  "name": "EstayMart · 自然理想居所",
+  "localizedNames": {
+    "en": "EstayMart · Sustainable Living"
+  },
+  "gitUrl": "https://github.com/weelume/estaymart-template",
+  "sceneId": "corporate-site",
+  "listed": false,
+  "tags": [
+    "房产",
+    "建筑",
+    "自然",
+    "视频",
+    "360°",
+    "中英文"
+  ],
+  "summary": "自然住宅双语整站，包含分层山景揭示、碎片轮播、服务图片探索器、住宅切换与360°拖拽体验。",
+  "accentColor": "#322720",
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "EstayMart desktop home",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-properties.webp",
+      "alt": "EstayMart desktop properties",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": "properties"
+    },
+    {
+      "src": "assets/desktop-blog.webp",
+      "alt": "EstayMart desktop blog",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/desktop-contact.webp",
+      "alt": "EstayMart desktop contact",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "EstayMart tablet home",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-properties.webp",
+      "alt": "EstayMart tablet properties",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": "properties"
+    },
+    {
+      "src": "assets/tablet-blog.webp",
+      "alt": "EstayMart tablet blog",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/tablet-contact.webp",
+      "alt": "EstayMart tablet contact",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "EstayMart mobile home",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-properties.webp",
+      "alt": "EstayMart mobile properties",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": "properties"
+    },
+    {
+      "src": "assets/mobile-blog.webp",
+      "alt": "EstayMart mobile blog",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/mobile-contact.webp",
+      "alt": "EstayMart mobile contact",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "住宅官网",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "理想居所",
+          "localizedTitles": {
+            "en": "Sustainable living"
+          }
+        },
+        {
+          "slug": "about",
+          "title": "关于我们",
+          "localizedTitles": {
+            "en": "About Us"
+          }
+        },
+        {
+          "slug": "properties",
+          "title": "精选住宅",
+          "localizedTitles": {
+            "en": "Residences"
+          }
+        },
+        {
+          "slug": "services",
+          "title": "设计与建造",
+          "localizedTitles": {
+            "en": "Services"
+          }
+        },
+        {
+          "slug": "gallery",
+          "title": "空间图库",
+          "localizedTitles": {
+            "en": "Gallery"
+          }
+        },
+        {
+          "slug": "contact",
+          "title": "联系我们",
+          "localizedTitles": {
+            "en": "Contact"
+          }
+        },
+        {
+          "slug": "blog",
+          "title": "生活志",
+          "localizedTitles": {
+            "en": "Journal"
+          }
+        },
+        {
+          "slug": "faq",
+          "title": "常见问题",
+          "localizedTitles": {
+            "en": "FAQs"
+          }
+        },
+        {
+          "slug": "careers",
+          "title": "加入我们",
+          "localizedTitles": {
+            "en": "Careers"
+          }
+        },
+        {
+          "slug": "properties/modern-villa",
+          "title": "现代山景别墅",
+          "localizedTitles": {
+            "en": "Modern villa"
+          }
+        },
+        {
+          "slug": "properties/sky-residence",
+          "title": "云端顶层住宅",
+          "localizedTitles": {
+            "en": "Sky residence"
+          }
+        },
+        {
+          "slug": "properties/modernist-home",
+          "title": "现代主义居所",
+          "localizedTitles": {
+            "en": "Modernist home"
+          }
+        },
+        {
+          "slug": "properties/botanical-sanctuary",
+          "title": "绿意私境",
+          "localizedTitles": {
+            "en": "Botanical sanctuary"
+          }
+        },
+        {
+          "slug": "blog/designing-with-nature",
+          "title": "让自然成为家的日常",
+          "localizedTitles": {
+            "en": "Designing with nature"
+          }
+        },
+        {
+          "slug": "blog/a-considered-home",
+          "title": "选择一处经得起时间的居所",
+          "localizedTitles": {
+            "en": "A considered home"
+          }
+        },
+        {
+          "slug": "blog/spaces-for-better-living",
+          "title": "为更好的生活留白",
+          "localizedTitles": {
+            "en": "Spaces for better living"
+          }
+        },
+        {
+          "slug": "sustainable-living",
+          "title": "可持续生活",
+          "localizedTitles": {
+            "en": "Sustainable Living"
+          }
+        },
+        {
+          "slug": "buying-guide",
+          "title": "置业指南",
+          "localizedTitles": {
+            "en": "Buying Guide"
+          }
+        },
+        {
+          "slug": "investment",
+          "title": "投资说明",
+          "localizedTitles": {
+            "en": "Investment"
+          }
+        },
+        {
+          "slug": "market-insights",
+          "title": "市场观察",
+          "localizedTitles": {
+            "en": "Market Insights"
+          }
+        },
+        {
+          "slug": "privacy",
+          "title": "隐私政策",
+          "localizedTitles": {
+            "en": "Privacy Policy"
+          }
+        },
+        {
+          "slug": "terms",
+          "title": "服务条款",
+          "localizedTitles": {
+            "en": "Terms of Service"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "restricted",
+    "file": "docs/LICENSE.md",
+    "summary": "参考设计与运行素材商业再分发权利未完整核实，不作商业授权声明。",
+    "redistributionAllowed": false
+  }
+}

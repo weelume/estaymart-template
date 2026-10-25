@@ -1,0 +1,1 @@
+import type {SiteTemplatePageProps} from '../../../types';import {ResourcePage} from './ResourcePage';export default function Page(props:SiteTemplatePageProps){return <ResourcePage {...props} id="terms"/>}

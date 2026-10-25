@@ -1,0 +1,122 @@
+{
+  "$schema": "./schemas/customization.schema.json",
+  "format": "git-template-customization",
+  "formatVersion": "0.2.0",
+  "entries": [
+    {
+      "id": "brand",
+      "title": "品牌配置",
+      "description": "修改对应模块后检查双语、响应式与相关动效",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/estaymart/config",
+          "kind": "directory",
+          "purpose": "品牌配置"
+        }
+      ],
+      "constraints": [
+        "保留系统减少动态效果设置",
+        "演示表单不发送、不保存",
+        "不添加装饰箭头"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test",
+        "build"
+      ]
+    },
+    {
+      "id": "content",
+      "title": "双语内容",
+      "description": "修改对应模块后检查双语、响应式与相关动效",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/estaymart/content",
+          "kind": "directory",
+          "purpose": "双语内容"
+        }
+      ],
+      "constraints": [
+        "保留系统减少动态效果设置",
+        "演示表单不发送、不保存",
+        "不添加装饰箭头"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test",
+        "build"
+      ]
+    },
+    {
+      "id": "theme",
+      "title": "主题样式",
+      "description": "修改对应模块后检查双语、响应式与相关动效",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/estaymart/theme.css",
+          "kind": "file",
+          "purpose": "主题样式"
+        }
+      ],
+      "constraints": [
+        "保留系统减少动态效果设置",
+        "演示表单不发送、不保存",
+        "不添加装饰箭头"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test",
+        "build"
+      ]
+    },
+    {
+      "id": "motion",
+      "title": "动效与公共组件",
+      "description": "修改对应模块后检查双语、响应式与相关动效",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/estaymart/components",
+          "kind": "directory",
+          "purpose": "动效与公共组件"
+        }
+      ],
+      "constraints": [
+        "保留系统减少动态效果设置",
+        "演示表单不发送、不保存",
+        "不添加装饰箭头"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test",
+        "build"
+      ]
+    },
+    {
+      "id": "pages",
+      "title": "页面组合",
+      "description": "修改对应模块后检查双语、响应式与相关动效",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/estaymart/pages",
+          "kind": "directory",
+          "purpose": "页面组合"
+        }
+      ],
+      "constraints": [
+        "保留系统减少动态效果设置",
+        "演示表单不发送、不保存",
+        "不添加装饰箭头"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "test",
+        "build"
+      ]
+    }
+  ]
+}

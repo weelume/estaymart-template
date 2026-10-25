@@ -1,0 +1,1 @@
+import type {ReactNode} from 'react';import './globals.css';export const metadata={title:'EstayMart · 自然理想居所',description:'建筑与自然共生的双语住宅展示'};export default function Layout({children}:{children:ReactNode}){return <html lang="zh-CN"><body>{children}</body></html>}

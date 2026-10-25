@@ -1,0 +1,3 @@
+@import url('/templates/estaymart/fonts/misans/MiSans-Regular.css');
+@import url('/templates/estaymart/fonts/misans/MiSans-Bold.css');
+@font-face{font-family:Estaymart Poppins;src:url('/templates/estaymart/fonts/poppins-latin-400.woff2') format('woff2');font-weight:400;font-display:swap}@font-face{font-family:Estaymart Poppins;src:url('/templates/estaymart/fonts/poppins-latin-600.woff2') format('woff2');font-weight:600;font-display:swap}@font-face{font-family:Estaymart Poppins;src:url('/templates/estaymart/fonts/poppins-latin-700.woff2') format('woff2');font-weight:700;font-display:swap}

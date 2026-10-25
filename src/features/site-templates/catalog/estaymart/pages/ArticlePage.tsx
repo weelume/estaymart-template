@@ -1,0 +1,7 @@
+'use client';
+import type {SiteTemplatePageProps} from '../../../types';
+import {Layout,href} from '../components/Layout';
+import {PageHeading} from '../components/PageHeading';
+import {articles,copy} from '../content/data';
+import {Action} from '../components/Motion';
+export function ArticlePage({locale='zh',basePath,index}:SiteTemplatePageProps & {index:number}){const a=articles[index];return <Layout locale={locale} basePath={basePath}><PageHeading locale={locale} title={a.title} intro={a.intro} eyebrow={copy('生活志 · 演示文章','Journal · Illustrative article')}/><div className="em-page-content"><article className="em-article"><img src={a.image} alt={a.title[locale]}/>{a.sections.map((s,i)=><section key={s.en}><h2>{s[locale]}</h2><p>{locale==='zh'?[`好的居住设计首先关注人的感受。${s.zh}，意味着从每天真实发生的生活出发，而非只关注一张漂亮的效果图。`,`采光、动线、材质与维护需要一起考虑。通过现场体验与专业评估，理解每项选择如何影响日常使用。`,`家的意义来自长久相处。让设计保留适当弹性，才能回应家庭、季节与生活方式的变化。`][i]:[`A considered home starts with the people who live in it. ${s.en} means looking beyond a beautiful image and understanding everyday experiences.`,`Daylight, circulation, materials, and maintenance should be considered together. A visit and a professional assessment help reveal how each choice affects daily life.`,`A home develops meaning over time. Flexible design creates room for changing families, seasons, and ways of living.`][i]}</p></section>)}<Action href={href(basePath,'blog')}>{locale==='zh'?'返回生活志':'Back to journal'}</Action></article></div></Layout>}
