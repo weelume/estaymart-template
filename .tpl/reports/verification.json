@@ -3,15 +3,15 @@
   "format": "git-template-verification",
   "formatVersion": "0.2.0",
   "status": "passed",
-  "checkedAt": "2026-10-25T10:52:43.133Z",
-  "sourceCommit": "1bd1699115311c19128e1dd884470319f4aba900",
-  "sourceDigest": "7745e1eb261a930add5d296355e25959d1abc2d1b191356ba5a95eb68d70aa02",
+  "checkedAt": "2026-10-25T14:50:08.571Z",
+  "sourceCommit": "193a8e7b80476a2b5428143539dbba981e541bda",
+  "sourceDigest": "b54eca678abb808bcb7aa101d5b370906d3f7d197729cd4ef364d4d16d6a63cb",
   "environment": {
     "platform": "linux",
     "arch": "x64",
     "node": "v24.16.0",
     "packageManager": "pnpm@9.15.4",
-    "cleanDirectory": true,
+    "cleanDirectory": false,
     "localGitClone": true
   },
   "checks": [
@@ -25,8 +25,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T10:49:29.422Z",
-      "finishedAt": "2026-10-25T10:49:32.581Z"
+      "startedAt": "2026-10-25T14:49:38.364Z",
+      "finishedAt": "2026-10-25T14:49:41.322Z"
     },
     {
       "id": "lint",
@@ -38,8 +38,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T10:49:32.582Z",
-      "finishedAt": "2026-10-25T10:49:37.010Z"
+      "startedAt": "2026-10-25T14:49:41.324Z",
+      "finishedAt": "2026-10-25T14:49:45.089Z"
     },
     {
       "id": "test",
@@ -51,8 +51,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T10:52:40.988Z",
-      "finishedAt": "2026-10-25T10:52:43.133Z"
+      "startedAt": "2026-10-25T14:49:45.089Z",
+      "finishedAt": "2026-10-25T14:49:46.127Z"
     },
     {
       "id": "build",
@@ -64,8 +64,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-25T10:49:36.206Z",
-      "finishedAt": "2026-10-25T10:50:22.027Z"
+      "startedAt": "2026-10-25T14:49:46.127Z",
+      "finishedAt": "2026-10-25T14:50:07.299Z"
     }
   ],
   "services": [
@@ -73,13 +73,11 @@
       "id": "web",
       "status": "passed",
       "stopped": true,
-      "checkedAt": "2026-10-25T10:50:23.644Z"
+      "checkedAt": "2026-10-25T14:50:08.571Z"
     }
   ],
   "limitations": [
-    "完整三端逐时刻动效与原站轨迹对照尚未完成，不标记完整复刻验收通过。",
-    "指针遮罩与碎片悬停、拖拽释放回弹和系统减少动态效果尚未完成实际对照。",
-    "参考设计与媒体的商业再分发权利未完整核实，保持未上架。",
-    "Next构建提示未检测到Next ESLint插件；独立ESLint、类型和构建通过。"
+    "本次在本地 WSL Git 克隆中叠加明确待交付修改进行检查，未重复完整浏览器交互矩阵。",
+    "原站三端逐帧动效、系统减少动态效果及商业素材再分发权利尚未完整核实，保持未上架。"
   ]
 }
